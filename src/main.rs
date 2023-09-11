@@ -5,5 +5,6 @@ fn main() {
     let mut cmd = String::new();
     println!("Enter command: ");
     let _ = io::stdin().read_line(&mut cmd); 
-    println!("Command: {}",cmd)
+    println!("Command: {}",cmd);
+    
 }
