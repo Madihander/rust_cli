@@ -1,5 +1,9 @@
 use std::io;
 use std::env;
+struct CLI{
+    pattern: String,
+    path: std::path::PathBuf,
+}
 fn main() {
     println!("Hello user!");
     println!("It is rust cli \n");
